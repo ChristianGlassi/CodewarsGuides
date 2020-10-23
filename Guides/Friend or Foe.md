@@ -22,6 +22,9 @@ Because our function takes in and returns array as an input we will be using the
 
      /*friends: array*/
 
+### *Return value* ###
+Array of four letter friends.
+
 ## Code ##
 
      function friend(friends) {
