@@ -1,6 +1,6 @@
 # **Tribonacci | Codewars** #
 
-### Christian Glassiognon | Javascript ###  
+#### Christian Glassiognon | Javascript ####  
 
 ## **Introduction** ##
 
@@ -13,7 +13,7 @@ Additionally, this function is implemented iteratively for simplicity, however i
 We will solve this problem by adding the last three numbers in the array and then adding this number to the end of the array. The one exeption to this is if ***n*** is less than 3, in that case we will add ***n*** numbers from the ***signature*** array to the ***answer*** array.
 
 ### *Tribonacci Example* ###
-##### From [Tribonacci Kata Instructions](https://www.codewars.com/kata/556deca17c58da83c00002db) #####
+##### [Tribonacci Kata Instructions](https://www.codewars.com/kata/556deca17c58da83c00002db) #####
 
     [1, 1 ,1, 3, 5, 9, 17, 31, ...]
 
@@ -21,8 +21,8 @@ We will solve this problem by adding the last three numbers in the array and the
 
     function tribonacci(signature, n)
     
-    signature (array): first 3 numbers to start sequence
-    n (number): number of items in return array
+    /*signature (array): first 3 numbers to start sequence
+    n (number): number of items in return array*/
 
 ### *Return value* ###
 An array of tribonacci numbers
